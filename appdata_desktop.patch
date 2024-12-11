@@ -1,7 +1,7 @@
-diff --git a/data/com.alovoa.alovoa-electron.appdata.xml b/data/com.alovoa.alovoa-electron.appdata.xml
+diff --git a/main/data/com.alovoa.alovoa-electron.appdata.xml b/main/data/com.alovoa.alovoa-electron.appdata.xml
 index 416a3b7..bf47f86 100644
---- a/data/com.alovoa.alovoa-electron.appdata.xml
-+++ b/data/com.alovoa.alovoa-electron.appdata.xml
+--- a/main/data/com.alovoa.alovoa-electron.appdata.xml
++++ b/main/data/com.alovoa.alovoa-electron.appdata.xml
 @@ -13,9 +13,9 @@
  
    <url type="bugtracker">https://github.com/Alovoa/alovoa-electron/issues</url>
@@ -21,10 +21,10 @@ index 416a3b7..bf47f86 100644
 -</component>
 \ No newline at end of file
 +</component>
-diff --git a/data/com.alovoa.alovoa-electron.desktop b/data/com.alovoa.alovoa-electron.desktop
+diff --git a/main/data/com.alovoa.alovoa-electron.desktop b/main/data/com.alovoa.alovoa-electron.desktop
 index f09944a..5cc52e5 100755
---- a/data/com.alovoa.alovoa-electron.desktop
-+++ b/data/com.alovoa.alovoa-electron.desktop
+--- a/main/data/com.alovoa.alovoa-electron.desktop
++++ b/main/data/com.alovoa.alovoa-electron.desktop
 @@ -1,6 +1,4 @@
 -#!/usr/bin/env xdg-open
  [Desktop Entry]
