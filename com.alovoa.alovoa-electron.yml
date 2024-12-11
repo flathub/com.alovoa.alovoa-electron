@@ -23,7 +23,7 @@ finish-args:
   - --talk-name=com.canonical.indicator.application
   - --talk-name=org.ayatana.indicator.application
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=org.kde.*
+  # - --own-name=org.kde.*
   # File system access
   - --filesystem=home
   - --filesystem=xdg-config/kdeglobals:ro
