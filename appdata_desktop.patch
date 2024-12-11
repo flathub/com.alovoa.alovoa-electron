@@ -1,0 +1,39 @@
+diff --git a/data/com.alovoa.alovoa-electron.appdata.xml b/data/com.alovoa.alovoa-electron.appdata.xml
+index 416a3b7..bf47f86 100644
+--- a/data/com.alovoa.alovoa-electron.appdata.xml
++++ b/data/com.alovoa.alovoa-electron.appdata.xml
+@@ -13,9 +13,9 @@
+ 
+   <url type="bugtracker">https://github.com/Alovoa/alovoa-electron/issues</url>
+   <url type="homepage">https://github.com/Alovoa/alovoa-electron</url>
+-
++  <launchable type="desktop-id">com.alovoa.alovoa-electron.desktop</launchable>
+   <requires>
+-    <display_length compare="ge">medium</display_length>
++    <display_length compare="ge">768</display_length>
+   </requires>
+ 
+   <recommends>
+@@ -43,4 +43,4 @@
+ 
+   <developer_name>Nho Quy Dinh</developer_name>
+   <update_contact>contact@alovoa.com</update_contact>
+-</component>
+\ No newline at end of file
++</component>
+diff --git a/data/com.alovoa.alovoa-electron.desktop b/data/com.alovoa.alovoa-electron.desktop
+index f09944a..5cc52e5 100755
+--- a/data/com.alovoa.alovoa-electron.desktop
++++ b/data/com.alovoa.alovoa-electron.desktop
+@@ -1,6 +1,4 @@
+-#!/usr/bin/env xdg-open
+ [Desktop Entry]
+-
+ Name=Alovoa
+ Exec=run.sh
+ Type=Application
+@@ -8,4 +6,3 @@ Icon=com.alovoa.alovoa-electron
+ Comment=An official Alovoa client for Linux, built with Electron.
+ Categories=Utility;Network;Chat;InstantMessaging;
+ StartupWMClass=alovoa-electron
+- 

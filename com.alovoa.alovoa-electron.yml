@@ -67,6 +67,8 @@ modules:
         url: https://github.com/Alovoa/alovoa-electron.git
         commit: d2f671fee60a50489b1105496454d5cb5bec2e04
         dest: main
+      - type: patch
+        path: appdata_desktop.patch
       - generated-sources.json
       # Wrapper to launch the app
       - type: script
